@@ -4,7 +4,7 @@ body{
 }
 nav{
     background-color: #ac5edfa6;
-    height: 15vh;
+    height: clamp(20vw, 15rem 15rem);
     opacity: 150%;
 }
 #space1{
@@ -16,7 +16,8 @@ nav{
 
 
 #logo{
-    height: 10vh;
+    height: 17vh;
+    max-height: 7rem;
 }
 
 #nav_text{
